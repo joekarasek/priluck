@@ -33,6 +33,17 @@
       }
     }
   }
+  .small-screen {
+    display: none;
+  }
+  @media screen and (max-width: 1280px) {
+    .small-screen {
+      display: block;
+    }
+    .large-screen {
+      display: none;    
+    } 
+  }
   h3 {
     color: #3d893f;
     font-family: $ff-cardo;
